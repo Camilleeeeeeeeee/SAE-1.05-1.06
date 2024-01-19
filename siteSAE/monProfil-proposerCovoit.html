@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Zara-Covoiturage et Location</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1>Zara</h1></a>
+                <nav>
+                    <ul>
+                        <li><a href="FormulaireCovoit.html">Un Covoit ?</a></li>
+                        <li><a href="locVoiture.html">LocElec'</a></li>
+                        <li><a href="monProfil-reservation.html">Mon Profil</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <main class="profil">
+            <div class="navCompte">
+                <img src="images/profileIcon.png">
+                <nav>
+                    <ul>
+                        <li><a href="monProfil-reservation.html">Mes Covoit</a></li>
+                        <li><a href="monProfil-proposerCovoit.html">Proposer un Covoit</a></li>
+                        <li><a href="monProfil-maLocation.html">Ma Location</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="proposerCovoit">
+                <h1>Proposer un covoiturage</h1>
+                <p>Veuillez rentrer les informations nécessaires à votre future trajet :</p>
+                <div>
+                    <form method="get" action="">
+                        <p>
+                            <input type="text" name="depart" id="depart" placeholder="Départ">
+                        </p>
+                    </form>
+                    <form method="get" action="">
+                        <p>
+                            <input type="text" name="destination" id="destination" placeholder="Destination">
+                        </p>
+                    </form>
+                    <form method="get" action="">
+                        <p>
+                            <input type="datetime" name="date" id="date" placeholder="Date">
+                        </p>
+                    </form>
+                    <form method="get" action="">
+                        <p>
+                            <input type="number" name="prix" id="prix" placeholder="Prix">
+                        </p>
+                    </form>
+                </div>
+                <input type="submit" value="Soumettre">
+            </section> 
+        </main>
+        <footer>
+            <p>"Copyright ZARA Corporation" 2023, tous droits réservés - <a href="CarteDeVisite.html">Les créateurs</a></p>
+        </footer>
+    </body>
+
+</html>

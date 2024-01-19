@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none
+}
+
+h1, h2, h3 {
+    font-family: Montserrat,sans-serif;
+}
+
+p, ul {
+    font-family: Manrope, sans-serif;
+    font-size: 1.2em;
+}
+
+header {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #a0a0a0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+header>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 85%;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li>a {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border-style:solid;
+    padding:5px;
+    border-radius:10px;
+    border-width: 2px;
+}
+
+nav a:hover{
+    background-color:white;
+    color:darkgrey;
+    border-color:grey; 
+}
+
+main {
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>h1 {
+    text-align: center;
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+
+}
+
+main>section {
+    height: 400px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>section>div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: lightgrey;
+    display:flex; 
+    justify-content: center;
+}
+
+main>section>p {
+    text-align: center;
+}
+
+.acceuille>div{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.acceuille>div>img{
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.rechercherCovoit{
+    height: 25%;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+        border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.rechercherCovoit>form>p {
+    display: flex;
+    flex-direction: row;
+}
+
+.listCovoit {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.listCovoit>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.listCovoit>div>img{
+    width: 30%;
+    height: 30%;
+}
+
+.profil{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+}
+
+
+.navCompte{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.navCompte>img {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.navCompte>nav>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
+.navCompte>nav>ul>li{
+    margin-top: 30px;
+}
+
+.reservation {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.reservation>h1 {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        width: 75%;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        background-color: #e6e6e6;
+    
+}
+
+.reservation>div>img{
+    width: 20%;
+
+}
+
+.zoe>img{
+    width: 50%;
+}
+.tesla>img{
+    width: 50%;
+}
+
+.mainLoc{
+    height: 1300px;
+    text-align: center;
+}
+
+.mainLoc>p{
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.location {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.location>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.locVoiture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 75%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.imgZoe{
+    width: 50%;
+}
+
+.proposerCovoit{
+    height: 20%;
+    width: 60%;
+    padding: 3%;
+    margin: 10px;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+        border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+
+.maLocTesla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20%;
+    padding: 10px;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #e6e6e6;
+}
+
+.maLocTesla>img {
+    width: 30%;
+}
+
+img {
+    border-radius: 10px;
+}

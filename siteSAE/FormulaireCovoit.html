@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Zara-Covoiturage et Location</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1>Zara</h1></a>
+                <nav>
+                    <ul>
+                        <li><a href="FormulaireCovoit.html">Un Covoit ?</a></li>
+                        <li><a href="locVoiture.html">LocElec'</a></li>
+                        <li><a href="monProfil-reservation.html">Mon Profil</a></li>
+                    </ul>
+                </nav>
+        </header>
+                <main>
+                    <h1>A la recherche d'un covoiturage ?</h1>
+                    <p>Afin de pouvoir vous trouvez les meilleurs propositions de covoiturage, rentrez ci-dessous les informations nous permettant de vous aidez dans votre recherche.</p>             
+                    <section class="rechercherCovoit">
+                        <h2>Recherchez un covoiturage dès maintenant</h2>
+                        <div>
+                            <form method="get" action="">
+                                <p>
+                                    <input type="text" name="depart" id="depart" placeholder="Départ">
+                                </p>
+                            </form>
+                            <form method="get" action="">
+                                <p>
+                                    <input type="text" name="destination" id="destination" placeholder="Destination">
+                                </p>
+                            </form>
+                            <form method="get" action="">
+                                <p>
+                                    <input type="datetime" name="date" id="date" placeholder="Date">
+                                </p>
+                            </form>
+                        </div>
+                        <form method="get" action="">
+                            <p>
+                                <label for="pays">Indiquez votre prix : </label>
+                                <select name="prix" id="prix">
+                                    <option value="petit" selected>Entre 5 et 10</option>
+                                    <option value="moyen">Entre 10 et 20</option>
+                                    <option value="grand">Entre 20 et 30</option>
+                                </select>
+                            </p>
+                        </form>
+                        <input type="submit" value="Rechercher">
+                    </section> 
+                    <p>Voici les covoiturages que nous avons trouvé à proximité :</p>
+                    <section class="listCovoit">
+                        <div class="Covoit">
+                            <img src="images/profileIcon.png">
+                            <ul>
+                                <li>Pierre</li>
+                                <li>Départ</li>
+                                <li>Destination</li>
+                                <li>Prix</li>
+                                <li>Horaire</li>
+                                <li><input type="submit" value="Réserver"></li>
+                            </ul>
+                        </div>
+                        <div class="Covoit">
+                            <img src="images/profileIcon.png">
+                            <ul>
+                                <li>Monique</li>
+                                <li>Départ</li>
+                                <li>Destination</li>
+                                <li>Prix</li>
+                                <li>Horaire</li>
+                                <li><input type="submit" value="Réserver"></li>
+                            </ul>
+                        </div>
+                        <div class="Covoit">
+                            <img src="images/profileIcon.png">
+                            <ul>
+                                <li>Vincent</li>
+                                <li>Départ</li>
+                                <li>Destination</li>
+                                <li>Prix</li>
+                                <li>Horaire</li>
+                                <li><input type="submit" value="Réserver"></li>
+                            </ul>
+                    </div>
+                    <div class="Covoit">
+                        <img src="images/profileIcon.png">
+                        <ul>
+                            <li>Anne</li>
+                            <li>Départ</li>
+                            <li>Destination</li>
+                            <li>Prix</li>
+                            <li>Horaire</li>
+                            <li><input type="submit" value="Réserver"></li>
+                        </ul>
+                </div>
+                    </section>
+                </main>
+        <footer>
+            <p>"Copyright ZARA Corporation" 2023, tous droits réservés - <a href="CarteDeVisite.html">Les créateurs</a></p>
+        </footer>
+    </body>
+
+</html>
